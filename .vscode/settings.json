@@ -1,0 +1,19 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "files.associations": {
+    ".blogsterrc": "jsonc"
+  },
+  "files.trimTrailingWhitespace": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  }
+}

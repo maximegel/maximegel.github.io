@@ -1,0 +1,5 @@
+{
+  "line-length": { "line_length": 120 },
+  "no-trailing-punctuation": { "punctuation": ".,;:!。，；：！？" },
+  "first-line-heading": { "level": 2 }
+}
