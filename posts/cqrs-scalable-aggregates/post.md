@@ -1,6 +1,6 @@
 ---
 title: CQRS Scalable Aggregates
-description: A way to reduce complexity from your aggregates and make them scale better
+description: A way to reduce complexity from your aggregates and make them scale better.
 coverImage: https://unsplash.com/photos/vGQ49l9I4EE
 tags:
   - csharp

@@ -1,6 +1,6 @@
 ---
 title: Guard Clauses Explained
-description: A way to protect your methods against invalid inputs and outputs
+description: A way to protect your methods against invalid inputs and outputs.
 coverImage: https://unsplash.com/photos/9HnSQn4TVEg
 tags:
   - csharp

@@ -1,6 +1,6 @@
 ---
 title: Never Return Null Again
-description:
+description: Understand how null affects code integrity and how it should be avoided.
 coverImage: https://unsplash.com/photos/NCSARCecw4U
 tags:
   - csharp
@@ -10,7 +10,7 @@ tags:
 invention in 1965. Many years later, [Tony Hoare](https://en.wikipedia.org/wiki/Tony_Hoare), the inventor of the
 [null reference](https://en.wikipedia.org/wiki/Null_pointer), even apologies for his mistake:
 
-> I call it my billion-dollar mistake. [...] My goal was to ensure that all use of references should be absolutely safe,
+> I call it my billion-dollar mistake. ... My goal was to ensure that all use of references should be absolutely safe,
 > with checking performed automatically by the compiler. But I couldn't resist the temptation to put in a null
 > reference, simply because it was so easy to implement. This has led to innumerable errors, vulnerabilities, and system
 > crashes, which have probably caused a billion dollars of pain and damage in the last forty years.
