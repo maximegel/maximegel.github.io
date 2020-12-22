@@ -7,7 +7,12 @@
   "editor.formatOnPaste": false,
   "editor.formatOnSave": true,
   "files.associations": {
-    ".blogsterrc": "jsonc"
+    ".blogsterrc": "jsonc",
+    ".czrc": "json",
+    ".commitlintrc": "jsonc",
+    ".huskyrc": "json",
+    ".lintstagedrc": "json",
+    ".textlintrc": "jsonc"
   },
   "files.trimTrailingWhitespace": true,
   "workbench.iconTheme": "material-icon-theme",
@@ -15,5 +20,7 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "[markdown]": {
     "files.trimTrailingWhitespace": false
-  }
+  },
+  "textlint.autoFixOnSave": true,
+  "textlint.run": "onType"
 }

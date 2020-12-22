@@ -1,0 +1,15 @@
+{
+  "rules": {
+    "en-spell": true,
+    "no-dead-link": {
+      "ignoreRedirects": true
+    },
+    "terminology": true
+  },
+  "filters": {
+    "comments": {
+      "enablingComment": "textlint-enable",
+      "disablingComment": "textlint-disable"
+    }
+  }
+}
