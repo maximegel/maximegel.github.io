@@ -67,10 +67,10 @@ public void CreateUser(string userName, string password)
 
 ## What to guard against?
 
-### Pre-conditions
+### Preconditions
 
-Pre-conditions are the conditions that have to be met before the method execution. Basically, the method pre-conditions
-will always **depend on the method arguments**. A good example of a method pre-condition is a non-null argument.
+Preconditions are the conditions that have to met before the method execution. Basically, the method preconditions will
+always **depend on the method arguments**. A good example of a method precondition is a non-null argument.
 
 ```csharp
 public User GetUser(string userName)
@@ -81,11 +81,11 @@ public User GetUser(string userName)
 }
 ```
 
-### Post-conditions
+### Postconditions
 
-Pre-conditions are the conditions that have to be met after the method execution. Basically, the method post-conditions
-will always **depend on the value returned by the method**. A good example of a method post-condition is a non-null or a
-not empty string.
+Postconditions are the conditions that have to met after the method execution. Basically, the method postconditions will
+always **depend on the value returned by the method**. A good example of a method post-condition is a non-null or a not
+empty string.
 
 ```csharp
 public User GetUsers()
@@ -105,8 +105,8 @@ protected methods) to get the result of the method as the example above.
 
 ### Public vs private
 
-In both cases, pre-conditions and post-conditions should not be checked for private methods since the class itself is
-the caller of these methods, you can trust what goes in goes and out of them. So you don't have to validate them.
+In both cases, preconditions and post-conditions should not be checked for private methods since the class itself is the
+caller of these methods, you can trust what goes in goes and out of them. So you don't have to validate them.
 
 ## How to handle guard clauses exceptions?
 
@@ -120,8 +120,8 @@ the time, a null argument is a bug so should we catch a bug and taking the chanc
 want to let the application fail immediately so that we can discover the bug before deploying it to production during
 the development process.
 
-But what if we have pre-conditions that don't rely on bugs? What if we have pre-conditions that could occur sometimes
-like business logic pre-conditions? The solution is to expose your guard clauses!
+But what if we have preconditions that don't rely on bugs? What if we have preconditions that could occur sometimes like
+business logic preconditions? The solution is to expose your guard clauses!
 
 ## Why exposing guard clauses?
 
@@ -180,7 +180,7 @@ public static Guard
 }
 ```
 
-In that implementation, the `Requires` method is used to validate pre-conditions and the `Ensures` method is to validate
+In that implementation, the `Requires` method is used to validate preconditions and the `Ensures` metd is to validate
 post-conditions. The interesting point about this implementation is the use of the C# `Debug` class coming from the
 `System.Diagnostics` namespace. The main point of the `Debug` class is that it will execute in debug mode only and can't
 be caught by the caller so it's respect the "never catch guard clauses exceptions" rule. Also, the `Ensures` method uses

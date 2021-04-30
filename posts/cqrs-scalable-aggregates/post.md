@@ -235,7 +235,7 @@ consider adding a custom collection class such as `IssueComments` to hold custom
 ---
 
 The source code can be found
-[here](https://github.com/maximegel/maximegel.github.io/tree/master/blog/cqrs-scalable-aggregates/samples).
+[here](https://github.com/maximegel/maximegel.github.io/tree/master/posts/cqrs-scalable-aggregates/samples).
 
 ### Related
 
