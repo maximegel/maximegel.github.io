@@ -2,6 +2,7 @@
   "rules": {
     "en-spell": true,
     "no-dead-link": {
+      "ignore": ["https://netbasal.com/**"],
       "ignoreRedirects": true
     },
     "terminology": true

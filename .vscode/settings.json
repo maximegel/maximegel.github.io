@@ -21,6 +21,6 @@
   "[markdown]": {
     "files.trimTrailingWhitespace": false
   },
-  "textlint.autoFixOnSave": true,
-  "textlint.run": "onType"
+  "textlint.autoFixOnSave": false,
+  "textlint.run": "onSave"
 }

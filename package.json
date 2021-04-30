@@ -13,7 +13,6 @@
     "@typescript-eslint/parser": "^4.8.1",
     "commitizen": "^4.2.2",
     "cz-conventional-changelog": "^3.3.0",
-    "dictionary-en": "^3.0.1",
     "eslint": "^7.14.0",
     "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-only-warn": "^1.0.2",
@@ -24,12 +23,9 @@
     "prettier": "^2.1.2",
     "textlint": "^11.7.6",
     "textlint-filter-rule-comments": "^1.2.2",
-    "textlint-rule-common-misspellings": "^1.0.1",
     "textlint-rule-en-spell": "^1.2.1",
     "textlint-rule-no-dead-link": "^4.7.0",
-    "textlint-rule-rousseau": "^1.4.6",
-    "textlint-rule-spellchecker": "^2.2.1",
-    "textlint-rule-spelling": "^0.3.0",
-    "textlint-rule-terminology": "^2.1.4"
+    "textlint-rule-terminology": "^2.1.4",
+    "typescript": "^4.1.3"
   }
 }
